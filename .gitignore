@@ -1,0 +1,58 @@
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ==============================================================================
+# Virtual Environments & IDEs
+# ==============================================================================
+.env
+.venv/
+venv/
+ENV/
+env/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================================================================
+# Inputs, Outputs & Scratch (Prevent Personal / Large Data Leaks)
+# ==============================================================================
+inputs/*
+!inputs/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+scratch/*
+!scratch/.gitkeep
+
+# Ignore all generated and binary asset files anywhere in workspace
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# ==============================================================================
+# OS & System Files
+# ==============================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
